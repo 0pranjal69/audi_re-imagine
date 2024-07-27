@@ -1,0 +1,680 @@
+@font-face {
+    font-family: neo;
+    src: url(../NeueHaasDisplayMediu.ttf);
+}
+
+@font-face {
+    font-family: audi;
+    src: url(../AudiType-Normal_03.woff);
+}
+
+@font-face {
+    font-family: pro;
+    src: url(../primeform-pro-cufonfonts-webfont/PrimeformPro-Light.woff);
+}
+
+* {
+    font-family: "neo";
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+
+}
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    border-radius: 50%;
+    animation: twinkle 2s infinite;
+}
+
+@keyframes twinkle {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.1;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem;
+
+}
+
+.img-nav {
+    filter: invert(1);
+}
+
+.navbar-menu {
+    display: flex;
+    gap: .5rem;
+}
+
+.navbar-item {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 0.1px solid rgba(255, 255, 255, 0.493);
+}
+
+.navbar-link {
+    color: #ffffffd5;
+    text-decoration: none;
+    z-index: 300;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.navbar-item::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background-color: #ffffff;
+    bottom: -100%;
+    left: 0;
+    transition: all 0.3s ease;
+    border-radius: 100%;
+
+}
+
+.navbar-item:hover::after {
+    bottom: 0;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-item:hover .navbar-link {
+    color: rgb(0, 0, 0);
+}
+
+.heads {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+    padding: 0px 50px;
+    margin-top: 80px;
+    color: #ffffff;
+
+}
+
+.hed {
+    width: 200px;
+    font-size: larger;
+}
+
+.left {
+    padding-top: 150px;
+    font-family: audi;
+}
+
+.ryt {
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+
+}
+
+.breaker {
+    height: 0.05mm;
+    background-color: rgba(255, 255, 255, 0.39);
+    width: 90vw;
+    margin: 50px auto;
+
+}
+
+.vid {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+
+#main-vid {
+    width: 95%;
+    border-radius: 20px;
+
+}
+
+
+.swiper {
+    width: 95%;
+    height: 100%;
+
+}
+
+.swiper-wrapper {
+    width: 40%;
+    margin: 0px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: drop-shadow(2px 20px 20px rgba(255, 255, 255, 0.288));
+    transition: all 300ms ease-in-out;
+}
+
+.swiper-slide:hover img {
+    transform: scale(1.1);
+    filter: drop-shadow(20px 18px 20px rgba(255, 255, 255, 0.486));
+}
+
+.swiper-slide {
+    width: 60%;
+}
+
+
+
+.conten {
+    display: grid;
+
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+}
+
+.eleme {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 200px;
+    align-items: center;
+    gap: 20px;
+    font-weight: lighter;
+}
+
+.e1 {
+    display: flex;
+
+    justify-content: center;
+}
+
+.ct {
+    background-color: black;
+}
+
+.wall {
+    height: 180px;
+    width: 0.1mm;
+    background-color: #fff;
+    position: absolute;
+    left: 97.5%;
+    z-index: 60;
+}
+
+.wall::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: (47, 0, 255);
+    left: 1px;
+    box-shadow: 0px 0px 20px 1px rgb(47, 0, 255);
+    z-index: 59;
+}
+
+.eleme h4 {
+    font-weight: 100;
+    font-family: audi;
+    color: white;
+}
+
+.eleme img {
+    filter: drop-shadow(2px 20px 20px rgba(255, 255, 255, 0.288));
+    transition: all 300ms ease-in-out;
+}
+
+.eleme img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(20px 18px 20px rgba(255, 255, 255, 0.486));
+}
+
+.txt {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -20px;
+    font-size: 40px;
+    font-family: audi;
+}
+
+.txt h3 {
+    font-family: audi;
+}
+
+.inr-txt {
+    color: #ffffff;
+
+}
+
+.inr-txt h4 {
+    font-family: audi;
+    font-weight: 100;
+}
+
+.content-section {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+    padding: 0;
+
+
+}
+
+.content-section.open {
+    max-height: 200px;
+    padding: 20px;
+}
+
+.card-cont {
+    width: 90%;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(17, 17, 17);
+    margin: auto;
+}
+
+.cc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cct {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 21px;
+}
+
+
+.cct::after {
+    content: '';
+    position: absolute;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0) 5%, rgb(17, 17, 17) 90%);
+}
+
+#scrollTopBtn {
+    display: none;
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 100;
+    border: none;
+    background-image: url(../stuff/rooftop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    background-color: transparent;
+    transition: transform 1s ease, filter 200ms ease;
+
+    height: 100px;
+    width: 50px;
+}
+
+#scrollTopBtn:hover {
+    filter: drop-shadow(0px 6px 16px rgba(255, 255, 255, 0.575));
+}
+
+.app-card {
+    background-color: rgb(17, 17, 17);
+    display: grid;
+    grid-template-columns: 45% 55%;
+    margin: auto;
+    justify-items: start;
+}
+
+.app-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    align-items: end;
+    justify-content: end;
+}
+
+.app {
+    height: 100%;
+    width: 100%;
+}
+
+.ap-btn {
+    text-align: center;
+}
+
+.apps {
+    flex-direction: column;
+}
+
+.apps h4 {
+    font-family: audi;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.726);
+}
+
+.apps span {
+    font-family: audi;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+.cars {
+    display: flex;
+    flex-direction: column;
+    z-index: 20;
+    position: relative;
+    padding: 100px 0;
+}
+
+.caar {
+    z-index: 20;
+    color: white;
+}
+
+.cars-cont {
+    display: flex;
+    background-color: rgb(17, 17, 17);
+    width: 95%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+    border-radius: 20px;
+    z-index: 20;
+}
+
+.clicker {
+    position: relative;
+    height: 200px;
+    width: 310px;
+    z-index: 20;
+}
+
+.teext {
+    font-family: audi;
+    font-weight: 100;
+    margin: 10px;
+    color: white;
+}
+
+.anc {
+    text-decoration: none;
+
+    font-weight: bolder;
+
+}
+
+.clicker video {
+    z-index: 1;
+    position: absolute;
+    height: 200px;
+    width: 310px;
+    object-fit: cover;
+}
+
+.clicker img {
+    position: absolute;
+    object-fit: cover;
+    z-index: 2;
+    height: 200px;
+    width: 310px;
+
+}
+
+.clicker:hover img {
+    z-index: 0;
+}
+
+.foot-cont {
+
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.f-txt {
+    margin: 15px 0px;
+    font-family: audi;
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+}
+
+.foot-text-elem {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.txt-cont {
+    font-family: pro;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.txt-cont:hover {
+    color: #9b9b9b;
+}
+
+.upr {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-top: 50px;
+    gap: 10px;
+    column-gap: 100px;
+    background-color: rgba(255, 255, 255, 0.034);
+}
+
+.lwr {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.sun {
+    width: 90%;
+    height: 400px;
+    position: absolute;
+
+}
+
+.sun h4 {
+    color: #ffffff69;
+    padding: 10px;
+    font-weight: 100;
+    font-family: audi;
+    margin-bottom: 5px;
+}
+
+.audi-text-container {
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.audi-text {
+    color: #fff;
+    font-size: 200px;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    font-family: neo;
+}
+
+.audi-text:nth-child(1):hover {
+
+    filter: drop-shadow(0px 0px 20px rgba(255, 0, 0, 0.507));
+}
+
+.audi-text:nth-child(2):hover {
+
+    filter: drop-shadow(0px 0px 20px rgba(255, 0, 0, 0.507));
+}
+
+.audi-text:nth-child(3):hover {
+
+    filter: drop-shadow(0px 0px 20px rgba(255, 0, 0, 0.507));
+}
+
+.audi-text:nth-child(4):hover {
+
+    filter: drop-shadow(0px 0px 20px rgba(255, 0, 0, 0.507));
+}
+
+.audi-text:nth-child(5):hover {
+
+    filter: drop-shadow(0px 0px 20px rgba(255, 0, 0, 0.507));
+}
+
+.audi-text:nth-child(6):hover {
+
+    filter: drop-shadow(0px 0px 20px rgba(255, 0, 0, 0.507));
+
+}
+
+.audi-text:nth-child(7):hover {
+
+    filter: drop-shadow(0px 0px 20px rgba(255, 0, 0, 0.507));
+
+}
+
+#crsr {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 0, 0, 0.671);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 50%;
+    filter: blur(5px);
+}
+
+#loader {
+    background-color: #fff;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    transition: all ease 1s;
+    z-index: 1000;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#loader h1 {
+    font-size: 4vw;
+    position: absolute;
+    opacity: 0;
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-delay: 500ms;
+
+}
+
+#loader h1:nth-child(2) {
+    animation-delay: 1.5s;
+}
+
+#loader h1:nth-child(3) {
+    animation-delay: 2.5s;
+}
+
+#loader img {
+    animation-delay: 3.5s;
+
+    animation-name: audi, loading;
+    animation-duration: 2s;
+
+    opacity: 0;
+    height: 20vh;
+    width: 20vw;
+
+
+}
+
+@keyframes loading {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes audi {
+    0% {
+        height: 20vh;
+        width: 20vw;
+
+    }
+
+    100% {
+        height: 40vh;
+        width: 40vw;
+
+    }
+}

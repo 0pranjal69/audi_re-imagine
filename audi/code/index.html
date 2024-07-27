@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="loader">
+        <h1>Vorsprung </h1>
+        <h1>durch </h1>
+        <h1>Technik</h1>
+      <img src="../stuff/logg (1).png" alt="">
+    </div>
+    <div class="navbar">
+        <div class="navbar-logo"><svg class="img-nav" height="24" width="69" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M56.927 0a11.798 11.798 0 00-7.495 2.671A11.906 11.906 0 0041.9 0a11.719 11.719 0 00-7.494 2.671C32.347 1.006 29.745 0 26.91 0a11.798 11.798 0 00-7.494 2.671C17.358 1.006 14.756 0 11.92 0 5.32 0 0 5.303 0 11.884c0 6.58 5.32 11.884 11.921 11.884 2.835 0 5.475-1.007 7.495-2.671 2.058 1.664 4.66 2.67 7.494 2.67 2.835 0 5.475-1.006 7.495-2.67a11.906 11.906 0 007.533 2.67c2.874 0 5.475-1.006 7.533-2.67 2.058 1.664 4.66 2.67 7.495 2.67 6.601 0 11.921-5.302 11.921-11.883C68.848 5.342 63.528 0 56.927 0zm-7.495 17.226a9.126 9.126 0 01-1.708-5.342c0-1.974.621-3.832 1.708-5.342a9.126 9.126 0 011.709 5.342c0 2.013-.66 3.832-1.709 5.342zm-15.027 0a9.126 9.126 0 01-1.709-5.342c0-1.974.621-3.832 1.709-5.342a9.126 9.126 0 011.708 5.342c0 2.013-.66 3.832-1.708 5.342zm-15.028 0a9.126 9.126 0 01-1.709-5.342c0-1.974.622-3.832 1.709-5.342a9.126 9.126 0 011.708 5.342c0 2.013-.66 3.832-1.708 5.342zM2.602 11.884c0-5.071 4.116-9.213 9.242-9.213a9.22 9.22 0 015.63 1.897c-1.592 2.013-2.524 4.529-2.524 7.316 0 2.748.932 5.303 2.524 7.316-1.553 1.2-3.495 1.897-5.63 1.897-5.087 0-9.242-4.103-9.242-9.213zM21.24 19.2c1.592-2.013 2.524-4.529 2.524-7.316 0-2.749-.932-5.303-2.524-7.316 1.553-1.2 3.495-1.897 5.63-1.897 2.136 0 4.078.697 5.63 1.897-1.591 2.013-2.523 4.529-2.523 7.316 0 2.748.932 5.303 2.524 7.316-1.553 1.2-3.495 1.897-5.63 1.897-2.136 0-4.078-.697-5.631-1.897zm15.028 0c1.592-2.013 2.524-4.529 2.524-7.316 0-2.749-.932-5.303-2.524-7.316 1.553-1.2 3.494-1.897 5.63-1.897a9.22 9.22 0 015.63 1.897c-1.591 2.013-2.523 4.529-2.523 7.316 0 2.748.932 5.303 2.524 7.316-1.554 1.2-3.495 1.897-5.63 1.897a9.22 9.22 0 01-5.631-1.897zm20.658 1.897a9.22 9.22 0 01-5.63-1.897c1.591-2.013 2.523-4.529 2.523-7.316 0-2.749-.932-5.303-2.524-7.316 1.554-1.2 3.495-1.897 5.63-1.897 5.088 0 9.243 4.103 9.243 9.213 0 5.11-4.155 9.213-9.242 9.213z"
+                    fill="#000" fill-rule="evenodd"></path>
+            </svg></div>
+
+        <div class="navbar-menu" id="navbarMenu">
+
+            <div class="navbar-item">
+                <a href="#" class="navbar-link ">Audi Shop</a>
+            </div>
+            <div class="navbar-item">
+                <a href="#" class="navbar-link">Services</a>
+            </div>
+            <div class="navbar-item">
+                <a href="#" class="navbar-link">Contact</a>
+            </div>
+        </div>
+    </div>
+    <section class="heads" >
+        <div class="hed left">Adventures in the great outdoors, weekend drives along unforgettable routes, fine-dining at the world's best restaurants and lots more. 
+        </div>
+        <div class="hed ryt">Innovation,<br>Quality and <br>Design</div>
+    </section>
+    <div class="breaker"></div>
+
+    <section class="vid"><video id="main-vid" src="../stuff/main.mp4" autoplay loop muted></video></section>
+
+    <span class="txt" data-aos="fade-down" data-aos-duration="600">
+        <h3 style="color: aliceblue;">Models</h3>
+    </span>
+    <div class="wall"></div>
+    <section class="swiper mySwiper">
+
+        <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide"><img data-aos="fade-right" data-aos-delay="200" class="button"
+                    onclick="openSection(1)"
+                    src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grT19ZuI3_54-eIWtvsygXvJPpX3uyh4EVpOsfkGB-DyT4XgMJjmsMYBIkkwAiukB8JgNmBgbWCiAjkgEE-PhKi3IKEosSc_XKM1NKMgQ1DIgEwuwuriGOnj7BANODQ27pAAAA?wid=291"
+                    alt="">
+                <div class="inr-txt">
+                    <h4>Q8 e-tron</h4>
+                </div>
+            </div>
+            <div class="swiper-slide"><img data-aos="fade-right" data-aos-delay="250" class="button"
+                    onclick="openSection(2)"
+                    src="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rj7/2022.png?wid=291" alt="">
+                <div class="inr-txt">
+                    <h4>e-tron GT</h4>
+                </div>
+            </div>
+            <div class="swiper-slide"><img data-aos="fade-right" data-aos-delay="300" class="button"
+                    onclick="openSection(3)"
+                    src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grD1PO-tgsqbnzjhoHbvlx6n3T-UXrvjKwAnUx6gEJ5jtAgu8akODYxAAmQeaFgIgWEJ_JkpmBgbUCyIhkAAE-vtKinILEosRcvfLMlJIMQQ0DIoEwu4triKOnTzAAsnbrAOkAAAA?wid=291"
+                    alt="">
+                <div class="inr-txt">
+                    <h4>e-tron</h4>
+                </div>
+            </div>
+            <div class="swiper-slide"><img data-aos="fade-right" data-aos-delay="350" class="button"
+                    onclick="openSection(4)"
+                    src="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wc/2023.png?wid=291" alt="">
+                <div class="inr-txt">
+                    <h4>A4</h4>
+                </div>
+            </div>
+            <div class="swiper-slide"><img class="button" onclick="openSection(5)"
+                    src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grT9T2rVd_3Ym13SYeffJftmCEgo7bWQZWoC7GEiDBogAk-CYBCQ5bBjAJMq8BRFwE8ZksmBkYWCuAjEgGEODjKy3KKUgsSszVK89MKckQ1DAgEgizu7iGOHr6BAMAHaFg3ukAAAA?wid=291"
+                    alt="">
+                <div class="inr-txt">
+                    <h4>A5</h4>
+                </div>
+            </div>
+            <div class="swiper-slide"><img class="button" onclick="openSection(6)"
+                    src="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a2/2022.png?wid=291" alt="">
+                <div class="inr-txt">
+                    <h4>A8</h4>
+                </div>
+            </div>
+            <div class="swiper-slide"><img class="button" onclick="openSection(7)"
+                    src="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nl0da/2022.png?wid=291" alt="">
+                <div class="inr-txt">
+                    <h4>Q3</h4>
+                </div>
+            </div>
+            <div class="swiper-slide"><img class="button" onclick="openSection(8)"
+                    src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grj_2WTztL-3sd3F7XyC8xruJa_ni1DQMrUBfjZyDB_BxI8MkDCY4OBjAJMm8hiJgF4jOZMTMwsFYAGZEMIMDHV1qUU5BYlJirV56ZUpIhqGFAJBBmd3ENcfT0CQYAUS-_ZekAAAA?wid=291"
+                    alt="">
+                <div class="inr-txt">
+                    <h4>Q5</h4>
+                </div>
+            </div>
+            <div class="swiper-slide"><img class="button" onclick="openSection(9)"
+                    src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grT4rVX_2m-OnF3yeX2X8U2uvxR_7AXAZWoC7G6UCC-SyQ4GcAEhzrISTIvBoQMRHEZzJkZmBgrQAyIhlAgI-vtCinILEoMVevPDOlJENQw4BIIMzu4hri6OkTDACJ4Teu6QAAAA?wid=291"
+                    alt="">
+                <div class="inr-txt">
+                    <h4>Q7</h4>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="breaker"></div>
+    <div id="content-section-1" class="content-section">
+        <div class="conten">
+            <div class="eleme">
+                <img src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grT19ZuI3_54-eIWtvsygXvJPpX3uyh4EVpOsfkGB-DyT4XgMJjmsMYBIkkwAiukB8JgNmBgbWCiAjkgEE-PhKi3IKEosSc_XKM1NKMgQ1DIgEwuwuriGOnj7BANODQ27pAAAA?wid=291"
+                    alt="">
+                <h4>Q8-etron</h4>
+            </div>
+
+            <div class="eleme"><img
+                    src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grj9cm3r7DG-NNHSriftydrNFxsr8gnYEVpOsfkGB-DyT4XgMJjmsMYBIkkwAiukB8JgNmBgbWCiAjkgEE-PhKi3IKEosSc_XKM1NKMgQ1DIgEwuwuriGOnj7BAJ5OOpXpAAAA?wid=291"
+                    alt="">
+                <h4>Q8 Sportsback e-tron</h4>
+            </div>
+        </div>
+        <div class="breaker"></div>
+    </div>
+    <div id="content-section-2" class="content-section">
+        <div class="conten">
+            <div class="eleme">
+                <img src="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rj7/2022.png?wid=291" alt="">
+                <h4>Audi etron GT</h4>
+            </div>
+
+            <div class="eleme"><img
+                    src="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rh7/2022.png?wid=291" alt="">
+                <h4>Audi RS e-tron GT</h4>
+            </div>
+        </div>
+        <div class="breaker"></div>
+    </div>
+    <div id="content-section-3" class="content-section">
+        <div class="conten">
+            <div class="eleme">
+                <img src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grD1PO-tgsqbnzjhoHbvlx6n3T-UXrvjKwAnUx6gEJ5jtAgu8akODYxAAmQeaFgIgWEJ_JkpmBgbUCyIhkAAE-vtKinILEosRcvfLMlJIMQQ0DIoEwu4triKOnTzAAsnbrAOkAAAA?wid=291"
+                    alt="">
+                <h4>Audi e-tron</h4>
+            </div>
+
+            <div class="eleme"><img
+                    src="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/geaaa/2021.png?wid=291" alt="">
+                <h4>Audi e-tron Sportback</h4>
+            </div>
+        </div>
+        <div class="breaker"></div>
+    </div>
+    <div id="content-section-4" class="content-section">
+        <div class="conten e1">
+            <div class="eleme">
+                <img src="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wc/2023.png?wid=291" alt="">
+                <h4>A4 sedan</h4>
+            </div>
+
+        </div>
+        <div class="breaker"></div>
+    </div>
+    <div id="content-section-5" class="content-section">
+        <div class="conten">
+            <div class="eleme">
+                <img src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grT9T2rVd_3Ym13SYeffJftmCEgo7bWQZWoC7GEiDBogAk-CYBCQ5bBjAJMq8BRFwE8ZksmBkYWCuAjEgGEODjKy3KKUgsSszVK89MKckQ1DAgEgizu7iGOHr6BAMAHaFg3ukAAAA?wid=291"
+                    alt="">
+                <h4>S5 Sportsback</h4>
+            </div>
+
+            <div class="eleme"><img
+                    src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grj0L9_xV6EruEa4L118hxSyZlyP-1ZWAF6mIsARIsCkCCbxKQ4LBlAJMg8xpAxEUQn8mCmYGBtQLIiGQAAT6-0qKcgsSixFy98syUkgxBDQMigTC7i2uIo6dPMACmZsQV6QAAAA?wid=291"
+                    alt="">
+                <h4>RS 5 Sportsback</h4>
+            </div>
+        </div>
+        <div class="breaker"></div>
+    </div>
+    <div id="content-section-6" class="content-section">
+        <div class="conten">
+            <div class="eleme">
+                <img src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grT19ZuI3_54-eIWtvsygXvJPpX3uyh4EVpOsfkGB-DyT4XgMJjmsMYBIkkwAiukB8JgNmBgbWCiAjkgEE-PhKi3IKEosSc_XKM1NKMgQ1DIgEwuwuriGOnj7BANODQ27pAAAA?wid=291"
+                    alt="">
+                <h4>Q8-etron</h4>
+            </div>
+
+            <div class="eleme"><img
+                    src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grj9cm3r7DG-NNHSriftydrNFxsr8gnYEVpOsfkGB-DyT4XgMJjmsMYBIkkwAiukB8JgNmBgbWCiAjkgEE-PhKi3IKEosSc_XKM1NKMgQ1DIgEwuwuriGOnj7BAJ5OOpXpAAAA?wid=291"
+                    alt="">
+                <h4>Q8 Sportsback e-tron</h4>
+            </div>
+        </div>
+        <div class="breaker"></div>
+    </div>
+    <div id="content-section-7" class="content-section">
+        <div class="conten">
+            <div class="eleme">
+                <img src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grT19ZuI3_54-eIWtvsygXvJPpX3uyh4EVpOsfkGB-DyT4XgMJjmsMYBIkkwAiukB8JgNmBgbWCiAjkgEE-PhKi3IKEosSc_XKM1NKMgQ1DIgEwuwuriGOnj7BANODQ27pAAAA?wid=291"
+                    alt="">
+                <h4>Q8-etron</h4>
+            </div>
+
+            <div class="eleme"><img
+                    src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grj9cm3r7DG-NNHSriftydrNFxsr8gnYEVpOsfkGB-DyT4XgMJjmsMYBIkkwAiukB8JgNmBgbWCiAjkgEE-PhKi3IKEosSc_XKM1NKMgQ1DIgEwuwuriGOnj7BAJ5OOpXpAAAA?wid=291"
+                    alt="">
+                <h4>Q8 Sportsback e-tron</h4>
+            </div>
+        </div>
+        <div class="breaker"></div>
+    </div>
+    <div id="content-section-8" class="content-section">
+        <div class="conten">
+            <div class="eleme">
+                <img src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grT19ZuI3_54-eIWtvsygXvJPpX3uyh4EVpOsfkGB-DyT4XgMJjmsMYBIkkwAiukB8JgNmBgbWCiAjkgEE-PhKi3IKEosSc_XKM1NKMgQ1DIgEwuwuriGOnj7BANODQ27pAAAA?wid=291"
+                    alt="">
+                <h4>Q8-etron</h4>
+            </div>
+
+            <div class="eleme"><img
+                    src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grj9cm3r7DG-NNHSriftydrNFxsr8gnYEVpOsfkGB-DyT4XgMJjmsMYBIkkwAiukB8JgNmBgbWCiAjkgEE-PhKi3IKEosSc_XKM1NKMgQ1DIgEwuwuriGOnj7BAJ5OOpXpAAAA?wid=291"
+                    alt="">
+                <h4>Q8 Sportsback e-tron</h4>
+            </div>
+        </div>
+        <div class="breaker"></div>
+    </div>
+    <div id="content-section-9" class="content-section">
+        <div class="conten">
+            <div class="eleme">
+                <img src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grT19ZuI3_54-eIWtvsygXvJPpX3uyh4EVpOsfkGB-DyT4XgMJjmsMYBIkkwAiukB8JgNmBgbWCiAjkgEE-PhKi3IKEosSc_XKM1NKMgQ1DIgEwuwuriGOnj7BANODQ27pAAAA?wid=291"
+                    alt="">
+                <h4>Q8-etron</h4>
+            </div>
+
+            <div class="eleme"><img
+                    src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grj9cm3r7DG-NNHSriftydrNFxsr8gnYEVpOsfkGB-DyT4XgMJjmsMYBIkkwAiukB8JgNmBgbWCiAjkgEE-PhKi3IKEosSc_XKM1NKMgQ1DIgEwuwuriGOnj7BAJ5OOpXpAAAA?wid=291"
+                    alt="">
+                <h4>Q8 Sportsback e-tron</h4>
+            </div>
+        </div>
+        <div class="breaker"></div>
+    </div>
+    <section class="card">
+        <div class="card-cont" data-aos="fade-left" data-aos-delay="400">
+            <div class="cc">
+                <div class="txt" style="color: white;">Audi Assist</div>
+                <div class="navbar-item">
+                    <a href="#" class="navbar-link">Learn More</a>
+                </div>
+            </div>
+            <div class="cct">
+
+
+                <video src="../stuff/mini vid.mp4" class="cct" autoplay loop muted></video>
+            </div>
+        </div>
+    </section>
+    <div class="breaker ct"></div>
+    <button id="scrollTopBtn" onclick="scrollToTop()"></button>
+
+
+    <section class="app">
+        <section class="app-card">
+            <div class="app-info">
+                <div class="txt apps" data-aos="fade-down" data-aos-delay="200">
+                    <h4>Because you expect more from your Audi than just a drive from A to B. Download it now,
+                        to get more of your car on your phone.</h4>
+                    <span data-aos="fade-down" data-aos-delay="250">myAudi</span>
+                </div>
+                <div class="navbar-item ap-btn" data-aos="fade-right" data-aos-delay="200">
+                    <a href="#" class="navbar-link">myAudi Connect</a>
+                </div>
+                <div class="navbar-item ap-btn" data-aos="fade-right" data-aos-delay="250">
+                    <a href="#" class="navbar-link">Audi Shop</a>
+                </div>
+            </div>
+
+            <img class="app" data-aos="fade-down" data-aos-delay="200"
+                src="https://www.audi.in/content/dam/nemo/in/3_O-Homepage/122_Audi-App-Post_1690-X-1896px_WC.jpg?imwidth=845"
+                alt="">
+
+        </section>
+
+    </section>
+    <div class="breaker"></div>
+
+
+    <section class="cars">
+        <div class="txt caar">Your Audi is Waiting</div>
+        <div class="cars-cont">
+            <div class="car-box">
+                <div class="clicker"><video src="../stuff/drive.mp4" autoplay loop muted></video><img
+                        src="https://www.audi.in/content/dam/nemo/in/3_O-Homepage/TestDrive-883x496.jpg?width=659"
+                        alt=""></div>
+                <h4 class="teext">Book a Test Drive</h4>
+                <a href="#" class="teext anc">learn more ></a>
+            </div>
+            <div class="car-box">
+                <div class="clicker"><video src="../stuff/plus.mp4" autoplay loop muted></video><img
+                        src="https://www.audi.in/content/dam/nemo/in/3_O-Homepage/ApprovedPlus-883X496.jpg?width=659"
+                        alt=""></div>
+                <h4 class="teext">Audi Approved Plus</h4>
+                <a href="#" class="teext anc">learn more ></a>
+            </div>
+            <div class="car-box">
+                <div class="clicker"><video src="../stuff/wash.mp4" autoplay loop muted></video><img
+                        src="https://www.audi.in/content/dam/nemo/in/3_O-Homepage/BookServices-833x496.jpg?width=659"
+                        alt=""></div>
+                <h4 class="teext">Book Online Service</h4>
+                <a href="#" class="teext anc">learn more ></a>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <section class="upr">
+            <div class="foot-cont">
+                <div class="foot-text">
+                    <h2 class="f-txt">Models</h2><div class="foot-text-elem"><a href="" class="txt-cont">All Models</a><a href="" class="txt-cont">Models Price List</a></div>
+                </div>
+            </div>
+            <div class="foot-cont">
+                <div class="foot-text">
+                    <h2 class="f-txt">Used Cars</h2><div class="foot-text-elem"><a href="" class="txt-cont">Audi Approved Plus</a><a href="" class="txt-cont">Dealer Locater</a></div>
+                    
+                </div>
+            </div>
+            <div class="foot-cont">
+                <div class="foot-text">
+                    <h2 class="f-txt">Customer Area</h2><div class="foot-text-elem"><a href="#" class="txt-cont">Audi Owners</a><a href=""
+                            class="txt-cont">Audi Services</a><a href="" class="txt-cont">myAudi Connect</a><a href=""
+                            class="txt-cont">Audi Club Rewards</a><a href="" class="txt-cont">Audi Concierge</a><a href=""
+                            class="txt-cont">Sustainability</a><a href="" class="txt-cont">Discover Audi from Home</a><a href=""
+                            class="txt-cont">Book a test drive</a><a href="" class="txt-cont"></a></div>
+                </div>
+            </div>
+            <div class="foot-cont">
+                <div class="foot-text">
+                    <h2 class="f-txt">Innovations</h2><div class="foot-text-elem"><a href="" class="txt-cont">Audi RS e-tron GT</a><a href="" class="txt-cont">Audi e-tron GT</a><a href="" class="txt-cont">Audi e-tron hub</a></div>
+                </div>
+            </div>
+            <div class="foot-cont">
+                <div class="foot-text">
+                    <h2 class="f-txt">Support</h2><div class="foot-text-elem"><a href="" class="txt-cont">Careers</a><a href="" class="txt-cont">Press</a><a href="" class="txt-cont">Audi Shop</a><a href="" class="txt-cont">Imprint</a><a href="" class="txt-cont">Corporate Governance</a><a href="" class="txt-cont">Contact / Newsletter</a></div>
+                </div>
+            </div>
+        </section>
+        <div class="breaker"></div>
+        <section class="lwr"><div id="crsr"></div>
+            
+            <div class="sun">
+                <h4>“The specified values of fuel consumption and emission are determined according to the mandatory emission test measurement specified in Rule 115 of Central Motor Vehicle Rules 1989 (CMVR), under controlled conditions using reference fuel, at an agency authorized under Rule 126 of CMVR. Fuel consumption and emission values may vary due to factors such as driving habits, road and traffic condition, fuel quality, maintenance practices, loading pattern, ambient condition and engineering tolerances etc. <br><br>
+
+                    The values declared for the vehicles have been obtained from one of the variant tested as per Central Motor Vehicle Rule 115. Fuel consumption and emission value for other variants may differ. Audi India or its authorize dealers shall not be held liable for any difference in fuel consumption values, due to any of the aforesaid variables. <br><br>
+                    
+                    Due to constant product improvement / changes in regulatory framework, technical specification provided herewith are subject to change without prior notice, customers are requested to contact Audi Call Centre / Audi Authorised Dealer for further details.”</h4>
+            </div>
+            <div class="audi-text-container">
+                <div class="audi-text"><h1 data-aos="fade-down" data-aos-duration="200" data-aos-delay="400">A</h1></div>
+                <div class="audi-text"><h1 data-aos="fade-down" data-aos-duration="400" data-aos-delay="400">U</h1></div>
+                <div class="audi-text"><h1 data-aos="fade-down" data-aos-duration="600" data-aos-delay="400">D</h1></div>
+                <div class="audi-text"><h1 data-aos="fade-down" data-aos-duration="800" data-aos-delay="400">I</h1></div>
+                <div class="audi-text"><h1 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">.</h1></div>
+                <div class="audi-text"><h1 data-aos="fade-down" data-aos-duration="1200" data-aos-delay="400">I</h1></div>
+                <div class="audi-text"><h1 data-aos="fade-down" data-aos-duration="1400" data-aos-delay="400">n</h1></div>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="./dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+    </script>
+
+</body>
+
+</html>
